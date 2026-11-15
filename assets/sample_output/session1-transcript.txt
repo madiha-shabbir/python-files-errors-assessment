@@ -1,0 +1,61 @@
+'expenses.csv' not found. Starting with an empty expense list.
+
+===== Institute Expense Tracker =====
+1. Add New Expense
+2. Show All Expenses
+3. Calculate Total Expenses by Category
+4. Exit
+
+Choose an option (1-4): 1
+
+--- Add New Expense ---
+Date (YYYY-MM-DD, Enter for today): 2026-11-10
+Item name: A4 paper and markers
+Category: stationery
+Amount: abc
+  Invalid amount. Please enter a valid positive number (e.g. 1250 or 99.50).
+Amount: -50
+  Invalid amount. Please enter a valid positive number (e.g. 1250 or 99.50).
+Amount: 1,250.50
+Saved: A4 paper and markers (Stationery) - 1250.50
+
+===== Institute Expense Tracker =====
+1. Add New Expense
+2. Show All Expenses
+3. Calculate Total Expenses by Category
+4. Exit
+
+Choose an option (1-4): 1
+
+--- Add New Expense ---
+Date (YYYY-MM-DD, Enter for today): 2026-11-11
+Item name: Internet bill
+Category: internet
+Amount: 4500
+Saved: Internet bill (Internet) - 4500.00
+
+===== Institute Expense Tracker =====
+1. Add New Expense
+2. Show All Expenses
+3. Calculate Total Expenses by Category
+4. Exit
+
+Choose an option (1-4): 1
+
+--- Add New Expense ---
+Date (YYYY-MM-DD, Enter for today): 2026-13-45
+  Invalid date. Please use the format YYYY-MM-DD (e.g. 2026-11-15).
+Date (YYYY-MM-DD, Enter for today): 2026-11-12
+Item name: Bus fare for trip
+Category: transport
+Amount: 1200
+Saved: Bus fare for trip (Transport) - 1200.00
+
+===== Institute Expense Tracker =====
+1. Add New Expense
+2. Show All Expenses
+3. Calculate Total Expenses by Category
+4. Exit
+
+Choose an option (1-4): 4
+Goodbye! All expenses are saved in 'expenses.csv'.

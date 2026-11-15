@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Attendance cleaning pipeline">
+  <style>
+    .box{fill:#f1f7fb;stroke:#14213d;stroke-width:2}
+    .t{font-family:Segoe UI,Helvetica,Arial,sans-serif;font-size:17px;font-weight:700;fill:#14213d;text-anchor:middle}
+    .m{font-family:Consolas,Menlo,monospace;font-size:14px;fill:#334155;text-anchor:middle}
+    .s{font-family:Segoe UI,Helvetica,Arial,sans-serif;font-size:13px;fill:#64748b;text-anchor:middle}
+    .arrow{stroke:#1fb6a6;stroke-width:3;fill:none;stroke-dasharray:8 6;animation:flow 1s linear infinite}
+    @keyframes flow{to{stroke-dashoffset:-14}}
+    @media (prefers-color-scheme: dark){.box{fill:#16202e;stroke:#6fb7c9}.t{fill:#e6edf3}.m{fill:#c9d4df}.s{fill:#8b9bb0}}
+  </style>
+  <defs><marker id="h" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10z" fill="#1fb6a6"/></marker></defs>
+  <text x="600" y="32" class="t" font-size="20">Attendance Cleaner - data pipeline (values from the real attendance.txt)</text>
+
+  <rect class="box" x="20"  y="70" width="190" height="170" rx="14"/>
+  <text class="t" x="115" y="98">1. Read lines</text><text class="s" x="115" y="118">open() + readlines()</text>
+  <text class="m" x="115" y="154">"  ayesha khan\n"</text><text class="m" x="115" y="178">"ALI RAZA\n"</text><text class="m" x="115" y="202">"ali raza\n"</text><text class="s" x="115" y="228">26 lines (1 blank)</text>
+
+  <rect class="box" x="255" y="70" width="190" height="170" rx="14"/>
+  <text class="t" x="350" y="98">2. Clean</text><text class="s" x="350" y="118">list comprehension</text>
+  <text class="m" x="350" y="154">strip() + title()</text><text class="m" x="350" y="178">"Ayesha Khan"</text><text class="m" x="350" y="202">"Ali Raza" x3</text><text class="s" x="350" y="228">25 records</text>
+
+  <rect class="box" x="490" y="70" width="190" height="170" rx="14"/>
+  <text class="t" x="585" y="98">3. De-duplicate</text><text class="s" x="585" y="118">set(cleaned)</text>
+  <text class="m" x="585" y="154">{ unique names }</text><text class="m" x="585" y="178">25 -&gt; 15</text><text class="m" x="585" y="202">10 duplicates gone</text><text class="s" x="585" y="228">len(set) = 15</text>
+
+  <rect class="box" x="725" y="70" width="190" height="170" rx="14"/>
+  <text class="t" x="820" y="98">4. Sort</text><text class="s" x="820" y="118">sorted(unique)</text>
+  <text class="m" x="820" y="154">Ali Raza</text><text class="m" x="820" y="178">Ayesha Khan</text><text class="m" x="820" y="202">Bilal Ahmed ...</text><text class="s" x="820" y="228">A to Z</text>
+
+  <rect class="box" x="960" y="70" width="220" height="170" rx="14"/>
+  <text class="t" x="1070" y="98">5. Save + report</text><text class="s" x="1070" y="118">csv.writer</text>
+  <text class="m" x="1070" y="154">attendance_clean.csv</text><text class="m" x="1070" y="178">header + 15 rows</text><text class="s" x="1070" y="228">console summary</text>
+
+  <path class="arrow" d="M212 155H251" marker-end="url(#h)"/>
+  <path class="arrow" d="M447 155H486" marker-end="url(#h)"/>
+  <path class="arrow" d="M682 155H721" marker-end="url(#h)"/>
+  <path class="arrow" d="M917 155H956" marker-end="url(#h)"/>
+
+  <rect x="20" y="268" width="1160" height="42" rx="10" fill="#fca311" opacity=".18"/>
+  <text class="m" x="600" y="294" font-size="15">Error paths: FileNotFoundError &#8594; message + stop  |  empty file &#8594; warning + stop  |  OSError on write &#8594; message</text>
+</svg>

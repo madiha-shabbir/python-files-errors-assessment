@@ -1,0 +1,25 @@
+==============================================
+        STUDENT ATTENDANCE CLEANER
+==============================================
+Original number of records : 25
+(blank lines ignored       : 1)
+Unique students            : 15
+Duplicates removed         : 10
+Saved to                   : attendance_clean.csv
+----------------------------------------------
+Cleaned attendance list:
+  1. Ali Raza
+  2. Ayesha Khan
+  3. Bilal Ahmed
+  4. Danish Mehmood
+  5. Fatima Noor
+  6. Hamza Yousaf
+  7. Hassan Ali
+  8. Khadija Aslam
+  9. Maryam Siddiqui
+ 10. Nimra Shahid
+ 11. Omar Farooq
+ 12. Sara Malik
+ 13. Talha Javed
+ 14. Usman Tariq
+ 15. Zainab Iqbal

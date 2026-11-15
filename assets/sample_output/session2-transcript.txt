@@ -1,0 +1,96 @@
+Loaded 3 saved expense(s) from 'expenses.csv'.
+
+===== Institute Expense Tracker =====
+1. Add New Expense
+2. Show All Expenses
+3. Calculate Total Expenses by Category
+4. Exit
+
+Choose an option (1-4): 2
+
+--- All Expenses ---
+No.  Date        Item                    Category            Amount
+-------------------------------------------------------------------
+1    2026-11-10  A4 paper and markers    Stationery         1250.50
+2    2026-11-11  Internet bill           Internet           4500.00
+3    2026-11-12  Bus fare for trip       Transport          1200.00
+-------------------------------------------------------------------
+Records: 3
+Unique categories (3): Internet, Stationery, Transport
+
+===== Institute Expense Tracker =====
+1. Add New Expense
+2. Show All Expenses
+3. Calculate Total Expenses by Category
+4. Exit
+
+Choose an option (1-4): 1
+
+--- Add New Expense ---
+Date (YYYY-MM-DD, Enter for today): 2026-11-12
+Item name: Printer ink
+Category: STATIONERY
+Amount: 2299.50
+Saved: Printer ink (Stationery) - 2299.50
+
+===== Institute Expense Tracker =====
+1. Add New Expense
+2. Show All Expenses
+3. Calculate Total Expenses by Category
+4. Exit
+
+Choose an option (1-4): 1
+
+--- Add New Expense ---
+Date (YYYY-MM-DD, Enter for today): 2026-11-13
+Item name: Tea and snacks
+Category: Refreshments
+Amount: 850
+Saved: Tea and snacks (Refreshments) - 850.00
+
+===== Institute Expense Tracker =====
+1. Add New Expense
+2. Show All Expenses
+3. Calculate Total Expenses by Category
+4. Exit
+
+Choose an option (1-4): 2
+
+--- All Expenses ---
+No.  Date        Item                    Category            Amount
+-------------------------------------------------------------------
+1    2026-11-10  A4 paper and markers    Stationery         1250.50
+2    2026-11-11  Internet bill           Internet           4500.00
+3    2026-11-12  Bus fare for trip       Transport          1200.00
+4    2026-11-12  Printer ink             Stationery         2299.50
+5    2026-11-13  Tea and snacks          Refreshments        850.00
+-------------------------------------------------------------------
+Records: 5
+Unique categories (4): Internet, Refreshments, Stationery, Transport
+
+===== Institute Expense Tracker =====
+1. Add New Expense
+2. Show All Expenses
+3. Calculate Total Expenses by Category
+4. Exit
+
+Choose an option (1-4): 3
+
+--- Total Expenses by Category ---
+Category                   Total
+--------------------------------
+Internet                 4500.00
+Refreshments              850.00
+Stationery               3550.00
+Transport                1200.00
+--------------------------------
+GRAND TOTAL             10100.00
+
+===== Institute Expense Tracker =====
+1. Add New Expense
+2. Show All Expenses
+3. Calculate Total Expenses by Category
+4. Exit
+
+Choose an option (1-4): 4
+Goodbye! All expenses are saved in 'expenses.csv'.
