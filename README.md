@@ -514,7 +514,7 @@ date,item,category,amount
 
 Unique categories found by the set: **4** (Internet, Refreshments, Stationery, Transport).
 
-<p align="center"><img src="assets/expense_summary.png" alt="Bar chart and donut chart of expenses by category" width="100%"></p>
+<p align="center"><img src="assets/expense-summary.png" alt="Bar chart and donut chart of expenses by category" width="100%"></p>
 
 ### 9.2 Attendance Cleaner (data from the supplied `attendance.txt`)
 
@@ -536,7 +536,7 @@ Examples of the cleaning step:
 | `"  zainab  iqbal"` (two spaces inside) | Zainab Iqbal |
 | `"Fatima NOOR  "` | Fatima Noor |
 
-<p align="center"><img src="assets/attendance_summary.png" alt="Attendance cleaning result and duplicate frequency per student" width="100%"></p>
+<p align="center"><img src="assets/attendance-summary.png" alt="Attendance cleaning result and duplicate frequency per student" width="100%"></p>
 
 Full console output of the run:
 
