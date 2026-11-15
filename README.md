@@ -164,7 +164,7 @@ flowchart LR
 
 ### 4.3 Attendance Cleaner - animated pipeline
 
-<p align="center"><img src="assets/attendance_pipeline.svg" alt="Attendance cleaning pipeline: read, clean, de-duplicate, sort, save" width="100%"></p>
+<p align="center"><img src="assets/attendance-pipeline.svg" alt="Attendance cleaning pipeline: read, clean, de-duplicate, sort, save" width="100%"></p>
 
 ### 4.4 Component view
 
